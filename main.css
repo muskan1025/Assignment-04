@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+
+  .title h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+
+  .title h4 {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 959px) {
+    img {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 960px) {
+    img {
+      max-width: 50%;
+      height: auto;
+    }
+  }
